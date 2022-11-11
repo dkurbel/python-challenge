@@ -53,8 +53,6 @@ Total Votes: {total_votes}
 
 ''')
 
-    # loop through dictionary to display key/value breakdowns
-
     for x, y in candidates.items():
         print(f'{x}: {y} ({y/total_votes * 100}%)')
 
